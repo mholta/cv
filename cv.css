@@ -58,8 +58,8 @@ a:hover {
 
 .page {
   /* A4 sizes */
-  height: 297mm;
-  max-height: 297mm;
+  height: 296mm;
+  max-height: 296mm;
   width: 210mm;
 
   margin: 0 auto;
@@ -316,10 +316,13 @@ ul {
 @media print {
   .pages-wrapper {
     padding: 0;
+    margin: 0;
   }
 
   .page {
     box-shadow: none;
+    margin: 0;
+    padding: 0;
   }
 
   @page {
