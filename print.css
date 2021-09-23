@@ -1,0 +1,11 @@
+.pages-wrapper {
+  padding: 0;
+}
+
+.page {
+  box-shadow: none;
+}
+
+@page {
+  margin: 0;
+}
