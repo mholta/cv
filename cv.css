@@ -98,9 +98,6 @@ footer {
   padding-right: 4rem;
 }
 
-.header {
-}
-
 .top-bar {
   position: absolute;
   top: 0;
@@ -115,7 +112,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .header__content-wrapper h1,
@@ -195,8 +192,9 @@ a.personalia--item-wrapper:hover {
 }
 
 .personalia--icon-wrapper {
-  width: 1.6rem;
+  width: 1.4rem;
   margin-right: 0.4rem;
+  color: var(--c-text-main);
 }
 
 .container {
@@ -298,9 +296,6 @@ ul {
   margin: 0;
 }
 
-.item__subtitle {
-}
-
 .item__description.italic {
   font-style: italic;
 }
@@ -311,9 +306,6 @@ ul {
   line-height: var(--line-height-main);
   margin: 0;
   font-weight: 600;
-}
-
-.item__date__project {
 }
 
 .category-section {
