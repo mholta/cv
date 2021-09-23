@@ -1,1 +1,1 @@
-# Simple CV-maker using HTML, CSS and JS
+# HTML-page for making CV
