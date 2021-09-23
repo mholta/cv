@@ -66,19 +66,19 @@ const listItems = [
     type: DATE_BASED,
     items: [
       {
-        since: new Date(2011, mo(08)),
-        until: new Date(2014, mo(06)),
-        title: 'Gjesdal ungdommsskole',
-        subtitle: '',
-        description: '',
-      },
-      {
-        since: new Date(2014, mo(08)),
-        until: new Date(2017, mo(06)),
-        title: 'Akademiet Sandnes',
+        since: new Date(2019, mo(08)),
+        until: null,
+        title: 'Bachelor i informatikk ved NTNU',
         subtitle: '',
         description:
-          'Studiespesialisering med realfag, inkludert: Matematikk R1 og R2, Fysikk 1 og 2, og Kjemi 1.',
+          'Student ved NTNU. Har hatt fag med matematikk, data- og informasjonsteknologi.',
+      },
+      {
+        since: new Date(2018, mo(08)),
+        until: new Date(2019, mo(06)),
+        title: 'IMI Intitutt for misjon, teologi og ledelse',
+        subtitle: '',
+        description: 'Deltid teologistudie kombinert med praksis som intern.',
       },
       {
         since: new Date(2017, mo(08)),
@@ -86,23 +86,22 @@ const listItems = [
         title: 'Acta Bibelskole',
         subtitle: '',
         description:
-          'Hadde fag om lederskap, personlig utvikling, musikk og bibelundervisning.',
+          'Hadde fag om bibel, ledelse, personlig utvikling og musikk.',
       },
       {
-        since: new Date(2018, mo(08)),
-        until: new Date(2019, mo(06)),
-        title: 'IMI Intitutt for misjon, teologi og ledelse',
+        since: new Date(2014, mo(08)),
+        until: new Date(2017, mo(06)),
+        title: 'Akademiet Sandnes',
         subtitle: '',
         description:
-          'Deltidsstudie i teologi kombinert med praksis som intern i staben i IMI kirken.',
+          'Studiespesialisering med realfag, inkludert Matematikk R1 og R2, Fysikk 1 og 2, og Kjemi 1.',
       },
       {
-        since: new Date(2019, mo(08)),
-        until: null,
-        title: 'Bachelor i informatikk ved NTNU',
+        since: new Date(2011, mo(08)),
+        until: new Date(2014, mo(06)),
+        title: 'Gjesdal ungdommsskole',
         subtitle: '',
-        description:
-          'Har hatt fag med matematikk, data- og informasjonsteknologi.',
+        description: '',
       },
     ],
   },
@@ -111,48 +110,51 @@ const listItems = [
     type: DATE_BASED,
     items: [
       {
-        since: new Date(2013, mo(06)),
-        until: new Date(2017, mo(08)),
-        title: 'Sesongmedarbeider',
+        since: new Date(2021, mo(08)),
+        until: null,
+        title: 'Ungdomsleder i Salem menighet',
         subtitle: '',
-        description: 'Fokus på kundebehandling, salg, informasjon og service.',
-      },
-      {
-        since: new Date(2018, mo(06)),
-        until: new Date(2019, mo(12)),
-        title: 'Butikkmedarbeider',
-        subtitle: '',
-        description:
-          'Sommervikar somrene 2018 og 2019, samt noe kveldsjobbing. Blant arbeidsoppgavene var salg, kundebehandling og problemløsing.',
-      },
-      {
-        since: new Date(2018, mo(08)),
-        until: new Date(2019, mo(06)),
-        title: 'Ungdomsarbeider',
-        subtitle: '',
-        description:
-          'Hovedleder av arbeid for ungdommer i alderen 13-19 år. Oppgaver var bl.a. planlegging og gjennomføring av møter og andre arrangementer, ledertrening og oppfølging av ungdomsstyre.',
-      },
-      {
-        since: new Date(2020, mo(06)),
-        until: new Date(2020, mo(08)),
-        title: 'Produksjonsmedarbeider på Bakehuset Bryne',
-        subtitle: '',
-        description: '',
+        description: `Hovedleder for ungdomsarbeidet for aldersgruppen 13-19 år. Dette innebærer blant annet
+        organisatorisk arbeid, teamledelse, planlegging og gjennomføring av arrangement, samt ledertrening 
+        og oppfølging av studenter og ungdommer.`,
       },
       {
         since: new Date(2021, mo(06)),
         until: new Date(2021, mo(08)),
         title: 'Produksjonsmedarbeider hos Jæder, Ådne Espelenad AS',
         subtitle: '',
-        description: '',
+        description: 'Arbeid på lager og i produksjon.',
       },
       {
-        since: new Date(2021, mo(08)),
-        until: null,
-        title: 'Ungdomsleder i Salem menighet',
+        since: new Date(2020, mo(06)),
+        until: new Date(2020, mo(08)),
+        title: 'Produksjonsmedarbeider på Bakehuset Bryne',
         subtitle: '',
-        description: '20% ansatt som hovedleder for ungdomsarbeidet. ',
+        description: 'Utdeling av varer til kunder.',
+      },
+      {
+        since: new Date(2018, mo(08)),
+        until: new Date(2019, mo(06)),
+        title: 'Ungdomsleder for Norkirken Ålgård',
+        subtitle: '',
+        description: `Hovedleder av arbeid for ungdommer i alderen 13-19 år. Oppgaver var bl.a. planlegging og 
+          gjennomføring av møter og andre arrangementer, ledertrening og oppfølging av ungdomsstyre.`,
+      },
+      {
+        since: new Date(2018, mo(06)),
+        until: new Date(2019, mo(12)),
+        title: 'Butikkmedarbeider hos Clas Ohlson',
+        subtitle: '',
+        description: `Sommervikar somrene 2018 og 2019, samt noen kvelder. Arbeidsoppgaver var
+        salg, kundebehandling og problemløsing.`,
+      },
+      {
+        since: new Date(2013, mo(06)),
+        until: new Date(2017, mo(08)),
+        title: 'Sesongmedarbeider i Kongeparken',
+        subtitle: '',
+        description:
+          'Fokus på god kundebehandling, salg og å skape opplevelser.',
       },
     ],
   },
@@ -161,13 +163,13 @@ const listItems = [
     type: PROJECT,
     items: [
       {
-        title: 'Blekkegenerator for Lovsang.no',
-        date: new Date(2021, mo(04)),
-        github: 'https://github.com/lovsang-no/chordpro-tools',
-        live: 'https://lovsang.netlify.app',
-        technologies: `Netlify, JavaScript`,
-        description: `Verktøy for å generere (og transponere) blekker i riktig format. 
-        For senere innsending av innhold til Lovsang.no.`,
+        title: 'Nettside for bryllupsfotograf',
+        date: new Date(2021, mo(09)),
+        github: 'https://github.com/mholta/fotohakon',
+        live: 'https://fotohakon.no',
+        technologies: `Gatsby, TypeScript, Contentful, Netlify, Google Analytics, Zapier og Figma`,
+        description: `Design og utvikling av nettside med fokus på enkel og 
+      strømlinjeformet booking.`,
       },
       {
         title: 'Sangdatabase for Lovsang.no',
@@ -179,13 +181,13 @@ const listItems = [
         og kunne transponere disse i riktig toneart.`,
       },
       {
-        title: 'Nettside for bryllupsfotograf',
-        date: new Date(2021, mo(09)),
-        github: 'https://github.com/mholta/fotohakon',
-        live: 'https://fotohakon.no',
-        technologies: `Gatsby, TypeScript, Contentful, Netlify, Google Analytics, Zapier og Figma`,
-        description: `Design og utvikling av nettside med fokus på enkel og 
-        strømlinjeformet booking.`,
+        title: 'Blekkegenerator for Lovsang.no',
+        date: new Date(2021, mo(04)),
+        github: 'https://github.com/lovsang-no/chordpro-tools',
+        live: 'https://lovsang.netlify.app',
+        technologies: `Netlify, JavaScript`,
+        description: `Verktøy for å generere (og transponere) blekker i riktig format. 
+        For senere innsending av innhold til Lovsang.no.`,
       },
     ],
   },
@@ -197,16 +199,17 @@ const listItems = [
         title: 'Dataferdigheter',
         subtitle: '',
         description: `
-          <i>Behersker godt</i> Java, JavaScript, TypeScript, HTML, CSS, ReactJS, Gatsby, GraphQL, Git, 
+          <i>Behersker godt:</i> Java, JavaScript, TypeScript, HTML, CSS, ReactJS, Gatsby, GraphQL, Git, 
           Netlify, Contentful, Figma og Webflow.
           <br />
-          <i>Har kjennskap til</i> Python og Django.`,
+          <br />
+          <i>Noe erfaring med:</i> Python, Django og Firebase.`,
       },
       {
         title: 'Erfaringer',
         subtitle: '',
         description: `
-        Ulike former for teamledelse og -deltakelse, fra kreative team i menigheten 
+        Ulike former for teamledelse og -deltakelse, det være seg kreative team i kirka 
         (musikk, media, grafisk design, produksjon) eller studierelatere 
         gruppeoppgaver med fokus på utviklingsrammeverk.`,
       },
@@ -243,6 +246,12 @@ const listItems = [
         `,
         contact: `
         +47 412 40 082 | <a href="mailto:hakon@mjos.no">hakon@mjos.no</a>
+        `,
+      },
+      {
+        content: `Eimund Åge Waldemar, fabrikksjef Jæder`,
+        contact: `
+        +47 997 46 010 | <a href="mailto:eimund@jaeder.no">eimund@jaeder.no</a>
         `,
       },
     ],

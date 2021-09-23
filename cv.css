@@ -131,6 +131,14 @@ footer {
   color: var(--c-light-grey);
 }
 
+.header__content-wrapper a.faded-title {
+  text-decoration: none;
+}
+
+.header__content-wrapper a.faded-title:hover {
+  text-decoration: underline;
+}
+
 .presentation-image-wrapper {
   position: relative;
   /* Preserve 1:1 aspect ratio */
