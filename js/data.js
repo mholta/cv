@@ -105,6 +105,40 @@ const listItems = [
       },
     ],
   },
+
+  {
+    title: 'Prosjekter',
+    type: PROJECT,
+    items: [
+      {
+        title: 'Nettside for bryllupsfotograf',
+        date: new Date(2021, mo(09)),
+        github: 'https://github.com/mholta/fotohakon',
+        live: 'https://fotohakon.no',
+        technologies: `React, Gatsby, TypeScript, Contentful, Netlify, Google Analytics, Zapier og Figma`,
+        description: `Design og utvikling av nettside med fokus på enkel og 
+      strømlinjeformet booking.`,
+      },
+      {
+        title: 'Sangdatabase for Lovsang.no',
+        date: new Date(2021, mo(07)),
+        github: 'https://github.com/lovsang-no',
+        live: 'https://www.lovsang.no',
+        technologies: `Webflow, JavaScript, Google Analytics, JsDelivr`,
+        description: `Sangdatabase der kjernefunksjonalitet er å søke etter akkorder 
+        og kunne transponere disse i riktig toneart.`,
+      },
+      {
+        title: 'Blekkegenerator for Lovsang.no',
+        date: new Date(2021, mo(04)),
+        github: 'https://github.com/lovsang-no/chordpro-tools',
+        live: 'https://lovsang.netlify.app',
+        technologies: `Netlify, JavaScript`,
+        description: `Verktøy for å generere (og transponere) blekker i riktig format. 
+        For senere innsending av innhold til Lovsang.no.`,
+      },
+    ],
+  },
   {
     title: 'Erfaring',
     type: DATE_BASED,
@@ -155,39 +189,6 @@ const listItems = [
         subtitle: '',
         description:
           'Fokus på god kundebehandling, salg og å skape opplevelser.',
-      },
-    ],
-  },
-  {
-    title: 'Prosjekter',
-    type: PROJECT,
-    items: [
-      {
-        title: 'Nettside for bryllupsfotograf',
-        date: new Date(2021, mo(09)),
-        github: 'https://github.com/mholta/fotohakon',
-        live: 'https://fotohakon.no',
-        technologies: `Gatsby, TypeScript, Contentful, Netlify, Google Analytics, Zapier og Figma`,
-        description: `Design og utvikling av nettside med fokus på enkel og 
-      strømlinjeformet booking.`,
-      },
-      {
-        title: 'Sangdatabase for Lovsang.no',
-        date: new Date(2021, mo(07)),
-        github: 'https://github.com/lovsang-no',
-        live: 'https://www.lovsang.no',
-        technologies: `Webflow, JavaScript, Google Analytics, JsDelivr`,
-        description: `Sangdatabase der kjernefunksjonalitet er å søke etter akkorder 
-        og kunne transponere disse i riktig toneart.`,
-      },
-      {
-        title: 'Blekkegenerator for Lovsang.no',
-        date: new Date(2021, mo(04)),
-        github: 'https://github.com/lovsang-no/chordpro-tools',
-        live: 'https://lovsang.netlify.app',
-        technologies: `Netlify, JavaScript`,
-        description: `Verktøy for å generere (og transponere) blekker i riktig format. 
-        For senere innsending av innhold til Lovsang.no.`,
       },
     ],
   },

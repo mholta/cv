@@ -30,7 +30,7 @@ document.querySelector('#lists-target').innerHTML += listItems
               return listItem.items
                 .sort((a, b) =>
                   listItem.type === DATE_BASED // Only sort if type is DATE_BASED
-                    ? (a.until ?? new Date()) < b.until
+                    ? (a.until ?? new Date()) < (b.until ?? new Date())
                     : listItem.type === PROJECT
                     ? a.date < b.date
                     : true
